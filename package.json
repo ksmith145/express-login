@@ -1,0 +1,23 @@
+{
+  "name": "loginsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "entropy-string": "^3.0.0",
+    "express": "^4.16.3",
+    "express-flash": "git://github.com/RGBboy/express-flash.git",
+    "express-session": "^1.15.6",
+    "knex": "^0.14.4",
+    "pg": "^7.4.1"
+  }
+}
